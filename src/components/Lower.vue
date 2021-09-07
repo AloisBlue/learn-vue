@@ -4,7 +4,7 @@
             <button @click="$store.dispatch('decreaseCounter')">-</button>
             <button @click="$store.dispatch('increaseCounter')">+</button>
             </div>
-            <div class="inputs">
+            <div class="input">
             <input
                 v-model="colorCode"
                 placeholder="Enter color code"
